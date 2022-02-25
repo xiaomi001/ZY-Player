@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: 12
 
-      - run: |
+       run: |
           yarn
           yarn dist
         shell: pwsh
